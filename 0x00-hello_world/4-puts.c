@@ -1,7 +1,4 @@
 #include <stdio.h>
-int main(void)
-
-
 /**
  * entry point 
  *
@@ -9,6 +6,8 @@ int main(void)
  *
  * return always 0 (success) 
  */
+
+int main(void)
 
 
 {
