@@ -3,23 +3,20 @@
 /**
  * main - Entry point
  *
- * Description: Prints the lowercase alphabet in reverse, followed by a new line
+ * Description: Print the lowercase alphabet in reverse, followed by a new line
  *
  * Return: 0 (Success)
 */
 int main(void)
 {
-	char ch = 'z';
+	char letter = 'z';
 
-	while (ch >= 'a')
+	while (letter >= 'a')
 	{
-	putchar(ch);
-	ch--;
+	putchar(letter);
+	letter--;
 	}
+
 	putchar('\n');
-	Return (0);
-
-
-
-
+	return (0);
 }
