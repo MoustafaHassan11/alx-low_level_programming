@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Prints single-digit numbers from 0 to 9, followed by a new line
+ * Description: Print single-digit numbers from 0 to 9,followed by a new line
  *
  * Return: 0 (Success)
 */
@@ -18,5 +18,6 @@ int main(void)
 	}
 
 	putchar('\n');
+
 	return (0);
 }
