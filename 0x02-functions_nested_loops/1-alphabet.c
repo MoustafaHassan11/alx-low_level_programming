@@ -1,17 +1,21 @@
 #include <stdio.h>
-#include "mian.h"
+#include "main.h"
 
 /**
- * print_alphabet - Print the lowercase alphabet followed by a newline
+ * print_alphabet - prints the english alphabet from a-z
+ * Return: Always 0 (Success)
+ *
+ * Write a function that prints the alphabet, in lowercase, followed by
+ * a new line.
 */
 
 void print_alphabet(void)
 {
-	char ch;
+	char character;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (character = 'a'; character <= 'z'; character++)
 	{
-	_putchar(ch);
+		_putchar(character);
 	}
 	_putchar('\n');
 }
