@@ -11,10 +11,14 @@
 
 void print_most_numbers(void)
 {
-	int num = 48;
+	int num;
 
-	while (num <= 48 && num <= 57 && num != 50 && num != 52)
-
+	for (num = 48; num < 58; num++)
+	{
+		if ((num == 50) || (num == 52))
+		{
+			continue;
+		}
 		putchar(num);
 	}
 	putchar('\n');
