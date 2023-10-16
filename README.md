@@ -1,1 +1,1 @@
-read me.MD file
+readme.md
