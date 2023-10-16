@@ -22,7 +22,7 @@ void print_rev(char *s)
 
 	while (i--)
 	{
-	_putchar(s[i]);
+	putchar(s[i]);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
