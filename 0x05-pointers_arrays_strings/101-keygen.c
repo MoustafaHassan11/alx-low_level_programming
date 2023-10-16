@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
 
 /**
  * main - generates random passwords for 101-crackne
@@ -16,7 +16,7 @@ int main(void)
 	srand(time(NULL));
 	while (sum <= 2645)
 	{
-		c = rand() & 128;
+		c = rand() % 128;
 		sum += c;
 		putchar(c);
 	}
