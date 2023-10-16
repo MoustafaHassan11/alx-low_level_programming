@@ -16,19 +16,19 @@ void rev_string(char *s)
 	char temp;
 
 	while (s[length] != '\0')
-	{1
-	length++;
+	{
+		length++;
 	}
 
 	end = length - 1;
 
 	while (start < end)
 	{
-	temp = s[start];
-	s[start] = s[end];
-	s[end] = temp;
+		temp = s[start];
+		s[start] = s[end];
+		s[end] = temp;
 
-	start++;
-	end--;
+		start++;
+		end--;
 	}
 }
