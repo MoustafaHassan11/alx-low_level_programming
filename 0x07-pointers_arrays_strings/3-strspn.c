@@ -9,10 +9,11 @@
  * Return: The number of characters at the start of 's'
  * that match any character in 'accept'.
  *
+ * Description:
  * This function counts the characters at the beginning of 's'
  * that match any character in 'accept'.
- * It returns the length of the prefix
- * consisting only of accepted characters.
+ * It returns the length of the prefix consisting only
+ * of accepted characters.
  */
 
 unsigned int _strspn(char *s, char *accept)
