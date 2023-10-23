@@ -1,4 +1,4 @@
-# include "main.h"
+#include "main.h"
 
 /**
 * _strchr - file memory with a constant byte.
