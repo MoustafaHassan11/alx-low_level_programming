@@ -22,22 +22,22 @@ unsigned int _strspn(char *s, char *accept)
 
 	while (*s != '\0')
 	{
-		found = 0;
-		while (*accept != '\0')
-		{
-			if (*s == *accept)
-			{
-				found = 1;
-				break;
-			}
-			accept++;
-		}
-		if (found == 0)
-		{
-			return (count);
-		}
-		count++;
-		s++;
+	found = 0;
+	while (*accept != '\0')
+	{
+		if (*s == *accept)
+	{
+		found = 1;
+		break;
+	}
+	accept++;
+	}
+	if (found == 0)
+	{
+	return (count);
+	}
+	count++;
+	s++;
 	}
 	return (count);
 }
