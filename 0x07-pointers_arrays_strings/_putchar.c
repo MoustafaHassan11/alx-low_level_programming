@@ -1,21 +1,18 @@
 #include <stdio.h>
 #include <unistd.h>
 
-
 /**
- * _putchar - Writes a character to stdout.
+ * _putchar - writes the character c to student 
+ * @c: the character to print
  *
- * @character: The character to write to the
- * standard output (stdout).
+ * Return: on success 1.
+ * on error, -1 is returned, and errno is set appropriately.
  *
- * Return: On success, it returns 1. On error,
- * it returns -1 and sets errno appropriately.
  *
- * This function is designed to write a
- * single character to the standard output.
- * It is commonly used to print characters to the terminal.
+ *
  */
-int _putchar(char character)
+
+int _putchar(char c)
 {
-	return (write(1, &character, 1));
+	return (write(1, &c, 1));
 }
