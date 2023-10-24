@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,6 +7,7 @@
  * @accept: The characters to match.
  * Return: Pointer to the first match in 'string' or NULL if none found.
  */
+
 char *_strpbrk(char *string, char *accept)
 {
 	while (*string)
